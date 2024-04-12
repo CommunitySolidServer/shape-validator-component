@@ -64,7 +64,7 @@ export class ShaclValidator extends ShapeValidator {
       representation.data.destroy();
       if (NotImplementedHttpError.isInstance(error)) {
         throw new BadRequestHttpError('Data could not be validated as it could not be converted to rdf',
-          { details: { ...error, message: error.message }});
+          { cause: { ...error, message: error.message }});
       }
       throw error;
     }

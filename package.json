@@ -30,7 +30,7 @@
     "config"
   ],
   "dependencies": {
-    "@solid/community-server": "^5.1.0",
+    "@solid/community-server": "^7.0.5",
     "@types/rdf-validate-shacl": "^0.2.4",
     "rdf-validate-shacl": "^0.3.2"
   },
